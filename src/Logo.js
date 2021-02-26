@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './full-word.svg'
 
-function Logo() {
+function Logo(props) {
     return (
-        <div>
+        <div className='logo'>
             <img src={logo} alt="logo"/>
         </div>
-    )
+    );
 }
 
 export default Logo;
