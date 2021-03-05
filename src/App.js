@@ -84,11 +84,11 @@ function App(props) {
             if(product.id === id) {
                 return {
                     ...product,
-                    bought: true
+                    bought: !product.bought
                 }
             }
 
-            return product
+            return product;
         })
 
         setDatabase(newDatabase);

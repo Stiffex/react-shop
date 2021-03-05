@@ -482,6 +482,17 @@ button.btn {
     cursor: pointer;
 }
 
+.changeColour {
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px;
+    color: #fff;
+    background-color: #00339999;
+
+    cursor: pointer;
+}
+
 .btn[disabled] {
     cursor: default;
     background-color: #00339999;
